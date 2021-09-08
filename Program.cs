@@ -78,6 +78,11 @@ namespace L2_Algorithms_DataStructures
             // Print the enrollments for one of the courses
             // Check if the dictionary has enrollments information for a course
             // Replace information about a course with information for another course
+            Dictionary<string, int> courseEnrollments = new Dictionary<string, int>();
+            courseEnrollments.Add("ISM 6225", 59);
+            courseEnrollments.Add("ISM 6220", 78);
+            courseEnrollments.Add("IDS 5932", 20);
+
 
             DataStructuresIntroduction.ComplexityDemo();
         }
